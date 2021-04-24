@@ -12,6 +12,7 @@ import java.util.List;
 @Transactional(Transactional.TxType.REQUIRED)
 public class ProductService {
 
+//    Only an example, also use this commit to trigger workflow
     public void prepare(Product product) {
         var originalPrice = product.getPrice();
         var someDiscountObtainedFromAService = new BigDecimal("0.3");
