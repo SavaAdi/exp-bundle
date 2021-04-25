@@ -1,11 +1,8 @@
 package com.adisava.persistance;
 
-import lombok.extern.log4j.Log4j2;
-
 import javax.persistence.Entity;
 import java.math.BigDecimal;
 
-@Log4j2
 @Entity
 public class Product extends BaseEntity {
 
